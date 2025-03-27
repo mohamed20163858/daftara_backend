@@ -76,3 +76,6 @@ app.post("/nav", (req, res) => {
 });
 
 app.listen(PORT);
+
+// Vercel deployment requirement
+module.exports = app;
